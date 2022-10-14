@@ -50,3 +50,21 @@ os.system('cls')
 # print(arr)
 # print(arr2)
 # print(max(arr2) - min(arr2))
+
+
+# Задача 4. Напишите программу, которая будет преобразовывать десятичное число в двоичное.
+# Нельзя использовать готовые функции.
+# *Пример:*
+# - 45 -> 101101
+# - 3 -> 11
+# - 2 -> 10
+
+# decimal = random.randint(1, 50)
+# print(decimal)
+# binary = 0
+# mult = 1
+# while decimal != 0:
+#     binary = binary + decimal % 2 * mult
+#     decimal //= 2
+#     mult *= 10
+# print(binary)
