@@ -1,4 +1,6 @@
+from unittest import result
 import numpy as np
+import random
 import os
 os.system('cls')
 
@@ -35,3 +37,16 @@ os.system('cls')
 #         i += 1
 # print(arr)
 # print(result)
+
+
+# Задача 3. Задайте список из вещественных чисел.
+# Напишите программу, которая найдёт разницу между
+# максимальным и минимальным значением дробной части элементов.
+# *Пример:*
+# - [1.1, 1.2, 3.1, 5, 10.01] => 0.19
+
+# arr = np.random.random_sample(size=4)
+# arr2 = [round(i % 1, 2) for i in arr if i % 1 != 0]
+# print(arr)
+# print(arr2)
+# print(max(arr2) - min(arr2))
